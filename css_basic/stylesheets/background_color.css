@@ -1,5 +1,8 @@
 body {
-  background-color: #CCCCCC;
+  /* background-color: #CCCCCC; */
+  background-image: url(../images/dot.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 h2 {
