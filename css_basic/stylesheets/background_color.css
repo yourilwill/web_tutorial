@@ -1,0 +1,14 @@
+body {
+  background-color: #CCCCCC;
+}
+
+h2 {
+  background-color: #4587BD;
+
+  /* border-style: solid; */
+  /* border-color: #E2B483; */
+  /* border-width: 10px; */
+  border: #E2B483 10px solid;
+
+  color: #FFF;
+}
