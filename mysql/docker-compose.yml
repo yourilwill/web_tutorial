@@ -1,0 +1,8 @@
+version: '3'
+services:
+  mysql:
+    build: ./docker/
+    volumes:
+      - ./docker/db:/docker-entrypoint-initdb.d
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
